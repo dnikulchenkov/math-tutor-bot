@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Math Tutor Bot — Telegram-бот для занятий по математике</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="min-h-screen bg-slate-950 text-slate-100">
+    <header class="mx-auto max-w-3xl px-6 py-12">
+      <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">Math Tutor Bot</h1>
+      <p class="mt-3 text-slate-300">Записывайтесь на занятия, задавайте вопросы и узнавайте стоимость прямо в Telegram.</p>
+    </header>
+    <main class="mx-auto max-w-3xl px-6">
+      <section class="rounded-xl border border-slate-800 bg-slate-900/60 p-6">
+        <h2 class="text-xl font-semibold">Что умеет бот</h2>
+        <div class="mt-4 grid gap-4 sm:grid-cols-2">
+          <div>
+            <h3 class="text-sm font-semibold text-emerald-400 mb-2">Для клиентов</h3>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-start gap-2"><span class="mt-1 inline-block h-2 w-2 rounded-full bg-emerald-400"></span><span>Бронирование занятий онлайн</span></li>
+              <li class="flex items-start gap-2"><span class="mt-1 inline-block h-2 w-2 rounded-full bg-emerald-400"></span><span>Просмотр и отмена своих записей</span></li>
+              <li class="flex items-start gap-2"><span class="mt-1 inline-block h-2 w-2 rounded-full bg-emerald-400"></span><span>Автоматические напоминания за 24 часа</span></li>
+              <li class="flex items-start gap-2"><span class="mt-1 inline-block h-2 w-2 rounded-full bg-emerald-400"></span><span>Отправка вопросов репетитору</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold text-blue-400 mb-2">Для админа</h3>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-start gap-2"><span class="mt-1 inline-block h-2 w-2 rounded-full bg-blue-400"></span><span>Статистика и аналитика</span></li>
+              <li class="flex items-start gap-2"><span class="mt-1 inline-block h-2 w-2 rounded-full bg-blue-400"></span><span>Интеграция с Google Calendar</span></li>
+              <li class="flex items-start gap-2"><span class="mt-1 inline-block h-2 w-2 rounded-full bg-blue-400"></span><span>Управление слотами</span></li>
+              <li class="flex items-start gap-2"><span class="mt-1 inline-block h-2 w-2 rounded-full bg-blue-400"></span><span>Уведомления о бронях</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-6 flex flex-wrap items-center gap-3">
+          <a href="https://t.me/" target="_blank" rel="noopener" class="inline-flex items-center justify-center rounded-lg bg-emerald-500 px-4 py-2 text-sm font-semibold text-slate-900 hover:bg-emerald-400 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:ring-offset-0" tabindex="0" aria-label="Открыть Telegram и найти бота через поиск">
+            Открыть в Telegram
+          </a>
+          <a href="./README.md" class="text-slate-300 underline decoration-slate-600 underline-offset-4 hover:text-white" tabindex="0" aria-label="Открыть документацию проекта">Документация</a>
+        </div>
+      </section>
+    </main>
+    <footer class="mx-auto max-w-3xl px-6 py-10 text-sm text-slate-400">
+      <p>Время сервера: <span id="server-tz">Europe/Moscow</span>. Запуск — Railway.</p>
+    </footer>
+  </body>
+  </html>
+
+
+
+
